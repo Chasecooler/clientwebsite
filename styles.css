@@ -1,3 +1,14 @@
+/* Personal Style */
+
+#id01 {
+    color: black;
+}
+
+#id02 {
+    color: forestgreen;
+
+}
+
 /* ############ Default ##########*/
 nav,
 header,
@@ -44,12 +55,16 @@ body {
 .col-12 {width: 100%;}
 
 
+.horizontal {
+    color: black;
+    width: 100%;
+}
 
 /** ########## Navbar */
 
 nav {
     width: 100%;
-    margin: 0;
+    margin: 0%;
 }
 
 nav ul {
@@ -87,7 +102,8 @@ ul.topnav li.dropdownIcon {
     display: none;
 }
 
-/** ########## Section 1 Gradient ##########**/
+/** ########## Gradient Section CSS ##########**/
+
 #section-1-gradient {
     background: lightgray;
     background: -webkit-linear-gradient(lightgray, black);
@@ -96,11 +112,20 @@ ul.topnav li.dropdownIcon {
 
 .leftside-col {
     margin-left: 30%;
+    /* margin: 0% */
 }
 
-h1.large {
+#clients {
     color: white;
-    font-size: 56px;
+    text-decoration: none;
+    font-size: 46px;
+    margin: 0%;
+    line-height: 70px;
+}
+
+#developers {
+    color: greenyellow;
+    font-size: 46px;
     margin: 0%;
     line-height: 70px;
 }
