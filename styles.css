@@ -111,13 +111,14 @@ ul.topnav li.dropdownIcon {
 }
 
 div.leftSide-col {
-    margin-left: 30%
+    margin-left: 30%;
 }
 
 div.rightside-col {
-    margin-left: 15%
+    margin-left: 15%;
 }
-.leftside-col {
+
+.leftside-col { 
     margin-left: 30%;
     /* margin: 0% */
 }
@@ -139,15 +140,43 @@ div.rightside-col {
 
 form h2 {
     color: white;
+
 }
 
 input[type="text"]{
     font-size: 20px;
-    width: 400px;
+    width: 350px;
     min-width: 100px;
     padding: 5px;
+    border-radius: 7px;
+} 
+
+#news {
+    color: white;
+    width: 100%;
+    font-size: 46px;
+    margin: 1%;
+    line-height: 70px;
+    background: linear-gradient(lightgray, black);
 }
 
+#contact {
+    color: white;
+    width: 100%;
+    font-size: 46px;
+    margin: 1%;
+    line-height: 70px;
+    background: linear-gradient(lightgray, black);
+}
+
+#about {
+    color: white;
+    width: 100%;
+    font-size: 46px;
+    margin: 1%;
+    line-height: 70px;
+    background: linear-gradient(lightgray, black);
+}
 
 /** ########## Mobile ########## */
 
